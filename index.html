@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Personal Library</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body id="bd">
+        <div class="container">
+           <div class="head"><h1><b><i>MY LIBRARY</i></b></h1></div>
+         
+        
+            <div id="personalLib">
+            <div id="result" class="result"></div>
+            <button onclick="getSummary()" class="myButton"><b>GET_BOOKSUMMARY</b>
+            
+            </button>
+           
+            <button  onclick="TreadingStatus()"  class="myButton" ><b>READING-STATUS</b></button>
+            <button onclick="removeLastBook()" class="myButton"><b>REMOVING A BOOK</b></button>
+            <button onclick="addBook()" class="myButton" ><b>ADD A BOOK </b></button>
+            <button onclick="addBookToFront()" class="myButton"><b>ADD A BOOK AT FRONT</b></button>
+            <button onclick="removeFirstBook()" class="myButton"><b>REMOVE A BOOK AT FRONT</b></button>
+            <button onclick="getAllTitles()" class="myButton"><b>GET ALL TITLES</b></button>
+            <button onclick="getBooksByAuthor()" class="myButton"><b>GET BOOKS BY AUTHOR</b></button>
+            <button onclick="getTotalBooksPublishedBefore()" class="myButton"><b>BOOKS PUBLISHED BEFORE YEAR</b></button>
+            <button onclick="getBooksByReadStatus()" class="myButton"><b>BOOKS BY READING STATUS</b></button>
+            <button onclick="getSubLibrary()" class="myButton"><b>CREATE-SUB_LIBRARY</b></button>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

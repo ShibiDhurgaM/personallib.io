@@ -1,0 +1,69 @@
+
+.container{
+    background-image: url('images/bk7.jpg');
+    background-size: cover;
+    background-position: center ;
+    height:100vh;
+    background-repeat: inherit;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+#jshead
+    { font-size: 400%;
+    }
+
+.head{
+    text-align: left;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 400%;
+    font-weight: bolder;
+    text-decoration: solid;
+    
+    --color-1: #ffffff88;
+    --color-2: #d7d2d88e;
+    --color-3: #ffffff;
+    --color-4:#ffffff88;
+    --color-5:  #ffffff;
+    background: linear-gradient(219deg, 
+    var(--color-1) 19%, 
+    transparent 19%,transparent 20%, 
+    var(--color-2) 20%, var(--color-2)  39%,
+    transparent 39%,transparent 40%, 
+    var(--color-3) 40%,var(--color-3) 59% ,
+    transparent 59%,transparent 60%, 
+    var(--color-4) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%, 
+    var(--color-5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+.myButton{
+    
+ background-color:darkgray;
+  border:brown;
+  font-family:'Times New Roman', Times, serif;
+  color:rgba(2, 28, 34, 0.973);
+ padding: 10px;
+  text-align: center;
+  text-decoration: wavy;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 18px;
+  display: block;
+ margin-bottom: 10px;
+  
+}
+.myButton:hover{background-color:#fffdfd}
+.myButton:active{
+    
+        background-color:#ffffff;
+        box-shadow: 0 5px #fffefe;
+        transform: translateY(4px);
+        font-family: 'Cinzel Decorative', cursive;
+       
+      }
